@@ -1,5 +1,5 @@
 bs4==0.0.1
-PyYAML==3.12
+PyYAML==5.4
 requests==2.13.0
 rsa==3.4.2
 redis==2.10.5
