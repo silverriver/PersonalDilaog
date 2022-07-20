@@ -1,3 +1,11 @@
+## 新闻
+PersonalDialog数据集的一部分数据现在可以通过huggingface的datasets库访问和使用：https://huggingface.co/datasets/silver/personal_dialog
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("silver/personal_dialog")
+```
 
 ## 微博对话爬虫
 本项目包含论文[Personalized Dialogue Generation with Diversified Traits](https://arxiv.org/abs/1901.09672)中构建数据集PersonalDialog时所使用的代码。
